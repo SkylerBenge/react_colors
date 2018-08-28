@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+  background-color: #66CCFF;
+  font-family: sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+.swatchListMain > div:first-of-type {
+  box-shadow: 0px 0px 25px 0px #333;
+  max-width: 242px;
+  margin: 0 auto;
+}
+.colorSquare {
+  width: 242px;
+  height: 242px;
+  margin: 0 auto;
+}
+form {
+  text-align: center;
+}
+.sorter {
+  text-align: right;
+}
+.swatchListMain input {
+  padding: 10px;
+  font-size: 16px;
+  width: 167px;
+}
+.swatchListMain button {
+  margin-right: -2px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #0066FF;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+.swatchListMain button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+.swatchListMain .theList {
+  list-style: none;
+  padding-left: 0;
+}
+.swatchListMain .theList li {
+  box-shadow: 0px 0px 25px 0px #333;
+  background: #FFF;
+  margin: 20px;
+  display: inline-block;
+}
+
+.swatchListMain .theList li div{
+  width: 242px;
+  height: 242px;
+}
+
+.swatchListMain .theList li p {
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 13px;
+  margin: 0;
+}
